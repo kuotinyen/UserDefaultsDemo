@@ -13,10 +13,27 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Demo 1
         setUserWithType()
         
         let user = getUserWithType()
         print(user)
+        
+        // Demo 2
+        setTokenWithoutType()
+        
+        let token = getTokenWithoutType()
+        print(token)
+    }
+    
+    func setTokenWithoutType() {
+        let token = "12311"
+        DB[.fcmToken] = token
+    }
+    
+    func getTokenWithoutType() -> String {
+        let token = DB[.fcmToken] as? String
+        return token ?? ""
     }
     
     func getUserWithType() -> User {
