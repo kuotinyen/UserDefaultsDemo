@@ -12,6 +12,7 @@
 		B02B3F0E219958B9000BFBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02B3F0C219958B9000BFBF8 /* Main.storyboard */; };
 		B02B3F10219958BA000BFBF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02B3F0F219958BA000BFBF8 /* Assets.xcassets */; };
 		B02B3F13219958BA000BFBF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02B3F11219958BA000BFBF8 /* LaunchScreen.storyboard */; };
+		B02B3F1C21995956000BFBF8 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02B3F1B21995956000BFBF8 /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B02B3F0F219958BA000BFBF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B02B3F12219958BA000BFBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B02B3F14219958BA000BFBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02B3F1B21995956000BFBF8 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B02B3F07219958B9000BFBF8 /* UserDefaultDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B02B3F1A2199594C000BFBF8 /* Demo */,
 				B02B3F08219958B9000BFBF8 /* AppDelegate.swift */,
 				B02B3F0A219958B9000BFBF8 /* ViewController.swift */,
 				B02B3F0C219958B9000BFBF8 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				B02B3F14219958BA000BFBF8 /* Info.plist */,
 			);
 			path = UserDefaultDemo;
+			sourceTree = "<group>";
+		};
+		B02B3F1A2199594C000BFBF8 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B02B3F1B21995956000BFBF8 /* UserDefaults.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				B02B3F0B219958B9000BFBF8 /* ViewController.swift in Sources */,
 				B02B3F09219958B9000BFBF8 /* AppDelegate.swift in Sources */,
+				B02B3F1C21995956000BFBF8 /* UserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
